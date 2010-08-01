@@ -1,0 +1,9 @@
+Name: authnet-api
+Version: 0.1
+Cabal-Version: >= 1.2
+Build-Type: Simple
+
+Library
+  Build-Depends: base, curl, HTTP, settings
+  Exposed-Modules: Network.AuthNet
+
